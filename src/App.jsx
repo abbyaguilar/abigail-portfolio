@@ -9,28 +9,38 @@ import Footer from "./components/Footer";
 import vendorMap from "./assets/vendormap.png";
 import decideToLive from "./assets/decidetolive.png";
 import sproutJourmind from "./assets/sprout.png";
+import notAvailable from "./assets/notavailable.png";
+import incomePredictor from "./assets/incomepredictor.png";
+import softwareTesting from "./assets/softwaretesting.mp4";
+import stockPredictor from "./assets/stockpredictor.mp4";
 
 function App() {
   const projectImages = {
     vendorMap,
     decideToLive,
     sproutJourmind,
+    notAvailable,
+    incomePredictor,
+  };
+
+  const projectVideos = {
+    softwareTesting,
+    stockPredictor,
   };
 
   return (
     <main className="min-h-screen bg-[#FAFAF8] text-[#111111]">
       <Navbar />
-
       <Hero />
 
-      <Projects images={projectImages} />
+      <Projects
+        images={projectImages}
+        videos={projectVideos}
+      />
 
       <About />
-
       <TechStack />
-
       <Contact />
-
       <Footer />
     </main>
   );
