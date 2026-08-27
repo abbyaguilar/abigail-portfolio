@@ -13,6 +13,7 @@ import notAvailable from "./assets/notavailable.png";
 import incomePredictor from "./assets/incomepredictor.png";
 import softwareTesting from "./assets/softwaretesting.mp4";
 import stockPredictor from "./assets/stockpredictor.mp4";
+import celebLookalike from "./assets/celeblookalike.gif";
 
 function App() {
   const projectImages = {
@@ -21,6 +22,7 @@ function App() {
     sproutJourmind,
     notAvailable,
     incomePredictor,
+    celebLookalike,
   };
 
   const projectVideos = {

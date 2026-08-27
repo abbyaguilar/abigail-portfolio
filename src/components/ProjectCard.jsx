@@ -27,6 +27,12 @@ export default function ProjectCard({ project, reverse }) {
                             preload="metadata"
                             className="h-full w-full object-cover"
                         />
+                    ) : project.gif ? (
+                        <img
+                            src={project.gif}
+                            alt={`${project.title} application demonstration`}
+                            className="h-full w-full object-cover transition duration-700 group-hover:scale-105"
+                        />
                     ) : project.image ? (
                         <img
                             src={project.image}

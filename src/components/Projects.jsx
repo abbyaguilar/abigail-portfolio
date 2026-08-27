@@ -38,8 +38,7 @@ export default function Projects({ images, videos }) {
             image: images.decideToLive,
             live: "https://www.decidetolive.co/",
             github: "https://github.com/abbyaguilar/DecideToLive",
-            secondaryLink:
-                "https://life-insuance-app.vercel.app/",
+            secondaryLink: "https://life-insuance-app.vercel.app/",
             secondaryLabel: "Insurance Calculator →",
             liveLabel: "Explore Platform →",
             githubLabel: "View Code →",
@@ -112,8 +111,7 @@ export default function Projects({ images, videos }) {
             ],
             image: images.sproutJourmind,
             live: "https://tarot-site-c111d.web.app/",
-            github:
-                "https://github.com/abbyaguilar/sproutjourmind",
+            github: "https://github.com/abbyaguilar/sproutjourmind",
             liveLabel: "View Experience →",
             githubLabel: "View Code →",
         },
@@ -146,10 +144,9 @@ export default function Projects({ images, videos }) {
                 "face_recognition",
                 "scikit-learn",
             ],
-            github:
-                "https://github.com/abbyaguilar/celeb-lookalike",
+            image: images.celebLookalike,
+            github: "https://github.com/abbyaguilar/celeb-lookalike",
             githubLabel: "View Code →",
-            codeOnly: true,
         },
     ];
 
