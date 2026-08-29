@@ -4,6 +4,23 @@ import ProjectCard from "./ProjectCard";
 export default function Projects({ images, videos }) {
     const projects = [
         {
+            title: "No Advice",
+            category: "Paper Trading & Agentic Market Research",
+            description:
+                "An agentic trading research platform that continuously monitors the market, evaluates opportunities against consistent research and risk rules, and records every decision in an inspectable paper portfolio. Users can run transparent trading simulations, review why assets qualified or were rejected, and explore strategy behavior without putting real capital at risk.",
+            tech: [
+                "Agentic AI",
+                "Paper Trading",
+                "Market Research",
+                "Risk Controls",
+                "Portfolio Simulation",
+            ],
+            image: images.noAdvice,
+            live: "https://noadvice.trade/",
+            liveLabel: "Explore Platform →",
+        },
+
+        {
             title: "Vendor Map",
             category: "Local Commerce Web App",
             description:

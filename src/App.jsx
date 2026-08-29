@@ -14,6 +14,7 @@ import incomePredictor from "./assets/incomepredictor.png";
 import softwareTesting from "./assets/softwaretesting.mp4";
 import stockPredictor from "./assets/stockpredictor.mp4";
 import celebLookalike from "./assets/celeblookalike.gif";
+import noAdvice from "./assets/noadvice.png";
 
 function App() {
   const projectImages = {
@@ -23,6 +24,7 @@ function App() {
     notAvailable,
     incomePredictor,
     celebLookalike,
+    noAdvice,
   };
 
   const projectVideos = {
