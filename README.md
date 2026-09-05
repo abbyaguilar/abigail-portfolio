@@ -2,88 +2,131 @@
 
 🌐 **Live Website:** https://abbyaguilar.com
 
-A personal portfolio showcasing my journey as a software developer, product builder, and creative technologist.
+I'm a Computer Science graduate and developer focused on turning ideas into working software. My projects span full-stack applications, AI-powered systems, machine learning, computer vision, commerce, and location-based products.
 
-This portfolio highlights full-stack applications, digital products, and experiments focused on solving meaningful problems through thoughtful design and technology.
-
----
-
-## ✨ About This Portfolio
-
-This website was designed and built from the ground up to represent how I approach software development:
-
-- Building products around real user problems
-- Creating intuitive and meaningful experiences
-- Combining strong engineering foundations with thoughtful design
-- Turning ideas into functional applications
-
-Rather than only showcasing code, this portfolio focuses on the **products, experiences, and ideas behind each project.**
+This repository supports my personal portfolio and reflects the projects and technologies I currently use most.
 
 ---
 
-# 🛠 Tech Stack
+## 🛠 Tech Stack
+
+### Languages
+- Python
+- JavaScript
+- C++
 
 ### Frontend
 - React
-- JavaScript
+- React Native
 - TypeScript
-- Tailwind CSS
-- Framer Motion
 - Vite
+- Tailwind CSS
 
 ### Backend & Data
+- FastAPI
+- Flask
+- Node.js
+- PostgreSQL
+- Supabase
 - Firebase
 - Firestore
-- Flask
-- Python
 - SQLite
 
-### APIs & Services
-- Google Maps API
-- Payment Integrations
-- Authentication Systems
+### Testing
+- pytest
+- Selenium
+- Robot Framework
 
-### Development Tools
-- Git
-- GitHub
+### APIs, Services & Deployment
+- Stripe
+- Google Maps API
+- Authentication systems
 - Vercel
-- Firebase Hosting
+- Oracle Cloud
+- Nginx
+- Git / GitHub
 
 ---
 
 # 🚀 Featured Projects
 
-## 📍 Vendor Map
-### Local Commerce Platform
+## 🤖 NoAdvice.trade
+### Agentic Market Research & Paper Trading
 
-A location-based discovery platform designed to connect customers with small businesses, pop-up vendors, and independent sellers.
-
-Vendor Map explores how real-time visibility can help local businesses become easier to discover while creating new ways for communities to support independent entrepreneurs.
+An educational market research and paper-trading platform that scans market assets, evaluates opportunities, records simulated decisions and trades, and maintains authenticated portfolio state. An agentic trading layer is under development and remains restricted from public live trading.
 
 ### Built With
 - React
-- Firebase
+- TypeScript
+- FastAPI
+- PostgreSQL
+- Supabase Auth
+- SQLAlchemy / Alembic
+- Oracle Cloud
+- Nginx
+
+💻 Code: https://github.com/abbyaguilar/meridian-ai-dashboard
+
+---
+
+## 📍 Vendor Map
+### Local Commerce Discovery
+
+A location-based discovery platform designed to connect customers with small businesses, pop-up vendors, and independent sellers. Vendors can create profiles, manage listings, and share live selling locations through an interactive map experience.
+
+### Built With
+- React
+- Firebase Authentication
 - Firestore
 - Google Maps API
 
 🔗 Live: https://vendor-map-mu.vercel.app/
 
-💻 Code: https://github.com/abbyaguilar/vendor-map
+💻 Code: https://github.com/abbyaguilar/Vendor-Map
+
+---
+
+## ⭐ Celebrity Lookalike Detector
+### Computer Vision & Machine Learning
+
+A computer vision application that extracts facial encodings from a custom image dataset, trains a linear SVM classifier, evaluates it on a held-out test set, serializes the trained model, and performs webcam-based inference with prediction smoothing.
+
+### Built With
+- Python
+- scikit-learn
+- OpenCV
+- face_recognition
+- Tkinter
+- joblib
+
+💻 Code: https://github.com/abbyaguilar/celeb-lookalike
+
+---
+
+## 🌾 urflo.delivery
+### Mobile Commerce
+
+A React Native / Expo storefront built around freshly milled flour delivery with packaging choices, fulfillment options, cart interactions, and Stripe test checkout.
+
+### Built With
+- React Native
+- Expo
+- Node.js
+- Stripe
+
+💻 Code: https://github.com/abbyaguilar/urflo
 
 ---
 
 ## 🧠 DecideToLive
-### Decision Support Platform
+### Longevity Assessment Platform
 
-A full-stack platform exploring how technology can simplify complex life decisions through personalized assessments, educational insights, and interactive tools.
-
-DecideToLive combines user experience design, data-driven scoring, and educational resources to help users better understand important decisions.
+A full-stack assessment experience that processes questionnaire responses through a custom scoring engine and returns personalized educational feedback across lifestyle categories.
 
 ### Built With
 - React
 - Flask
 - Python
-- Machine Learning
 - SQLite
 
 🔗 Live: https://www.decidetolive.co/
@@ -92,61 +135,40 @@ DecideToLive combines user experience design, data-driven scoring, and education
 
 ---
 
-## 🌱 Sprout Jourmind
-### Wellness Brand & Digital Product
+# 🔬 Earlier ML Work
 
-A mindfulness brand and guided journal experience created from concept to publication.
+## 📈 Stock Price Forecasting
 
-Sprout Jourmind combines product development, branding, and web design to create an interactive experience focused on reflection, intentional living, and personal growth.
+An experimental forecasting application that retrieves historical market data through yfinance, engineers calendar features, uses chronological train/test splitting, tunes Gradient Boosting regressors with GridSearchCV, evaluates predictions with MSE, and displays forecasts through Streamlit.
 
-### Built With
-- React
-- TypeScript
-- Tailwind CSS
-- Firebase
-- PayPal Integration
+💻 Code: https://github.com/abbyaguilar/stock-prediction
 
-🔗 Experience: https://tarot-site-c111d.web.app/
+## 📊 Income Predictor
 
-💻 Code:
-https://github.com/abbyaguilar/sproutjourmind
+A Flask application using Bayesian Ridge regression and a scikit-learn preprocessing pipeline to predict salary from demographic and professional inputs while returning a prediction uncertainty estimate.
+
+💻 Code: https://github.com/abbyaguilar/income-predictor
 
 ---
 
-# 🎨 Design Philosophy
+# 🎯 What I'm Focused On
 
-I believe great software exists at the intersection of:
+I'm currently focused on:
+- Full-stack software engineering
+- Backend and API development
+- AI application development
+- Technical implementation and integrations
+- Software testing and reliability
+- Product-oriented engineering
 
-**Technology × Human Experience × Purpose**
-
-My goal is to build applications that are not only functional, but meaningful — products that make complex ideas easier to understand and everyday experiences better.
-
----
-
-# 📈 What I'm Exploring
-
-Current areas of interest:
-
-- Full-stack application development
-- Product design
-- AI-powered experiences
-- Human-centered technology
-- Startup development
-- Building tools that empower communities and individuals
+I enjoy learning unfamiliar systems, troubleshooting difficult problems, and building useful software from concept through deployment.
 
 ---
 
 # 📬 Connect
 
-Portfolio:
-https://abbyaguilar.com
+Portfolio: https://abbyaguilar.com
 
-GitHub:
-https://github.com/abbyaguilar
+GitHub: https://github.com/abbyaguilar
 
-LinkedIn:
-https://linkedin.com/in/abbyaguilar
-
----
-
-⭐ Thanks for visiting!
+LinkedIn: https://linkedin.com/in/abbyaguilar
