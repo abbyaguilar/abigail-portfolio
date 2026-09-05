@@ -6,6 +6,7 @@ import TechStack from "./components/TechStack";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
+import urflo from "./assets/urflo.png";
 import vendorMap from "./assets/vendormap.png";
 import decideToLive from "./assets/decidetolive.png";
 import sproutJourmind from "./assets/sprout.png";
@@ -18,6 +19,7 @@ import noAdvice from "./assets/noadvice.png";
 
 function App() {
   const projectImages = {
+    urflo,
     vendorMap,
     decideToLive,
     sproutJourmind,

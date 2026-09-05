@@ -5,11 +5,10 @@ export default function Projects({ images, videos }) {
     const projects = [
         {
             title: "No Advice",
-            category: "Paper Trading & Agentic Market Research",
+            category: "Paper Trading & Market Research",
             description:
-                "An agentic trading research platform that continuously monitors the market, evaluates opportunities against consistent research and risk rules, and records every decision in an inspectable paper portfolio. Users can run transparent trading simulations, review why assets qualified or were rejected, and explore strategy behavior without putting real capital at risk.",
+                "A market research and paper trading platform that scans market assets, evaluates opportunities against consistent research and risk rules, and records simulated decisions in an inspectable portfolio. Users can run transparent market simulations, review why assets qualified or were rejected, and explore strategy behavior without putting real capital at risk.",
             tech: [
-                "Agentic AI",
                 "Paper Trading",
                 "Market Research",
                 "Risk Controls",
@@ -40,10 +39,26 @@ export default function Projects({ images, videos }) {
         },
 
         {
+            title: "urflo.delivery",
+            category: "Mobile Commerce Application",
+            description:
+                "A mobile-first commerce prototype for freshly milled flour delivery with packaging and fulfillment options, cart state, and a Stripe test checkout flow. Built with a server-authoritative payment architecture so pricing and order totals are validated outside the mobile client.",
+            tech: [
+                "React Native",
+                "Expo",
+                "Node.js",
+                "Stripe",
+            ],
+            image: images.urflo,
+            github: "https://github.com/abbyaguilar/urflo",
+            githubLabel: "View Code →",
+        },
+
+        {
             title: "Decide To Live",
             category: "Longevity & Financial Planning Platform",
             description:
-                "An interactive longevity and financial planning platform combining a research-based lifestyle assessment with an educational insurance planning toolkit. Users can explore personalized longevity projections and interactive estimates for term life, whole life, cash value planning, and annuities through a responsive financial planning interface.",
+                "An interactive longevity and financial planning platform combining a research-informed lifestyle assessment with an educational insurance planning toolkit. Users can explore personalized lifestyle insights and interactive estimates for term life, whole life, cash value planning, and annuities through a responsive planning interface.",
             tech: [
                 "React",
                 "JavaScript",
@@ -62,37 +77,34 @@ export default function Projects({ images, videos }) {
         },
 
         {
-            title: "NotAvailable",
-            category: "Chrome Extension • Senior Capstone",
+            title: "Celebrity Lookalike",
+            category: "Computer Vision Application",
             description:
-                "A Chrome extension that helps users understand their browsing habits by collecting browsing history, tracking time spent on websites, and presenting activity through a web interface with most-visited sites and usage breakdowns.",
+                "A real-time computer vision application that uses facial encoding and a trained classifier to identify which celebrity a user most closely resembles through a webcam.",
             tech: [
-                "JavaScript",
-                "React",
-                "Node.js",
-                "Chrome Extension APIs",
+                "Python",
+                "OpenCV",
+                "face_recognition",
+                "scikit-learn",
             ],
-            image: images.notAvailable,
-            github: "https://github.com/abbyaguilar/NotAvailable",
+            image: images.celebLookalike,
+            github: "https://github.com/abbyaguilar/celeb-lookalike",
             githubLabel: "View Code →",
         },
 
         {
-            title: "Income Predictor",
-            category: "Machine Learning Web App",
+            title: "Software Testing",
+            category: "QA Automation • Group Project",
             description:
-                "A machine learning application that predicts salary using age, education, job title, gender, and years of experience. Built a preprocessing pipeline with missing-value imputation and categorical encoding before applying Bayesian Ridge regression.",
+                "A quality assurance project focused on testing an Odoo hospital module. Led the creation and execution of automated test cases covering workflows including user login and patient creation using Python, Selenium, Robot Framework, and PostgreSQL.",
             tech: [
                 "Python",
-                "Flask",
-                "scikit-learn",
-                "pandas",
-                "Machine Learning",
-                "Bayesian Ridge",
+                "Selenium",
+                "Robot Framework",
+                "PostgreSQL",
+                "QA Automation",
             ],
-            image: images.incomePredictor,
-            github: "https://github.com/abbyaguilar/Income-Predictor",
-            githubLabel: "View Code →",
+            video: videos.softwareTesting,
         },
 
         {
@@ -110,7 +122,41 @@ export default function Projects({ images, videos }) {
                 "GridSearchCV",
             ],
             video: videos.stockPredictor,
-            github: "https://github.com/abbyaguilar/stock-predictor",
+            github: "https://github.com/abbyaguilar/stock-prediction",
+            githubLabel: "View Code →",
+        },
+
+        {
+            title: "Income Predictor",
+            category: "Machine Learning Web App",
+            description:
+                "A machine learning application that predicts salary using age, education, job title, gender, and years of experience. Built a preprocessing pipeline with missing-value imputation and categorical encoding before applying Bayesian Ridge regression.",
+            tech: [
+                "Python",
+                "Flask",
+                "scikit-learn",
+                "pandas",
+                "Machine Learning",
+                "Bayesian Ridge",
+            ],
+            image: images.incomePredictor,
+            github: "https://github.com/abbyaguilar/income-predictor",
+            githubLabel: "View Code →",
+        },
+
+        {
+            title: "NotAvailable",
+            category: "Chrome Extension • Senior Capstone",
+            description:
+                "A digital wellbeing project developed as my senior capstone that tracks website activity and screen time, compares browsing patterns over time, and presents usage insights through a Chrome extension interface. The project explored client-server communication, browser APIs, Firebase, and behavior-focused product design.",
+            tech: [
+                "JavaScript",
+                "React",
+                "Node.js",
+                "Chrome Extension APIs",
+            ],
+            image: images.notAvailable,
+            github: "https://github.com/abbyaguilar/NotAvailable",
             githubLabel: "View Code →",
         },
 
@@ -130,39 +176,6 @@ export default function Projects({ images, videos }) {
             live: "https://tarot-site-c111d.web.app/",
             github: "https://github.com/abbyaguilar/sproutjourmind",
             liveLabel: "View Experience →",
-            githubLabel: "View Code →",
-        },
-
-        {
-            title: "Software Testing",
-            category: "QA Automation • Group Project",
-            description:
-                "A quality assurance project focused on testing an Odoo hospital module. Led the creation and execution of automated test cases covering workflows including user login and patient creation using Python, Selenium, Robot Framework, and PostgreSQL.",
-            tech: [
-                "Python",
-                "Selenium",
-                "Robot Framework",
-                "PostgreSQL",
-                "QA Automation",
-            ],
-            video: videos.softwareTesting,
-            github: "https://github.com/abbyaguilar",
-            githubLabel: "View GitHub →",
-        },
-
-        {
-            title: "Celebrity Lookalike",
-            category: "Computer Vision Application",
-            description:
-                "A real-time computer vision application that uses facial encoding and a trained classifier to identify which celebrity a user most closely resembles through a webcam.",
-            tech: [
-                "Python",
-                "OpenCV",
-                "face_recognition",
-                "scikit-learn",
-            ],
-            image: images.celebLookalike,
-            github: "https://github.com/abbyaguilar/celeb-lookalike",
             githubLabel: "View Code →",
         },
     ];
