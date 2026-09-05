@@ -50,25 +50,6 @@ This repository supports my personal portfolio and reflects the projects and tec
 
 # 🚀 Featured Projects
 
-## 🤖 NoAdvice.trade
-### Agentic Market Research & Paper Trading
-
-An educational market research and paper-trading platform that scans market assets, evaluates opportunities, records simulated decisions and trades, and maintains authenticated portfolio state. An agentic trading layer is under development and remains restricted from public live trading.
-
-### Built With
-- React
-- TypeScript
-- FastAPI
-- PostgreSQL
-- Supabase Auth
-- SQLAlchemy / Alembic
-- Oracle Cloud
-- Nginx
-
-💻 Code: https://github.com/abbyaguilar/meridian-ai-dashboard
-
----
-
 ## 📍 Vendor Map
 ### Local Commerce Discovery
 
